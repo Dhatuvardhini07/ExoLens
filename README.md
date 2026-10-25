@@ -2,10 +2,6 @@
   <img src="docs/exolens-banner.svg" alt="ExoLens — Read the light. Search for worlds." width="100%">
 </p>
 
-<p align="center">
-  <em>Built by Dhatuvardhini · [Astronomy × Data Science]</em>
-</p>
-
 ---
 
 # 🌌 ExoLens
@@ -13,7 +9,6 @@
 ### *Read the light. Search for worlds.*
 
 # ExoLens Python engine
->>>>>>> 9100413 (Polish README with ExoLens space-themed banner)
 
 **A small observatory in your browser.**
 
