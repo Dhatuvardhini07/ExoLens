@@ -1,0 +1,64 @@
+# Python environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Downloaded observations and generated analysis outputs
+/data/cache/
+/data/results/
+*.fits
+*.fit
+*.fits.gz
+
+# Local build artifacts
+build/
+dist/
+*.egg-info/
+
+# Pytest temporary data
+work/test-tmp/
+
+# Task scratch and local reference copies
+/work/
+/reference/original_submission/
+
+# Frontend dependencies and build
+/frontend/node_modules/
+/frontend/dist/
+/frontend/coverage/
+
+/frontend/.npm-cache/
+# Node dependencies and local tooling
+node_modules/
+.vite/
+coverage/
+
+# Python tooling and test artifacts
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Compressed astronomy data
+*.fits.gz
+*.fit.gz
+*.fts
+*.fts.gz
+# Local project archive
+/ExoLens-project.zip..zip
+# Generated Python package metadata
+*.egg-info/
+
+# Large local project archive
+/ExoLens-project.zip..zip
