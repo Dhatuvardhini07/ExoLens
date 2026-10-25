@@ -1,0 +1,40 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+  <defs>
+    <linearGradient id="space" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080d20"/>
+      <stop offset="55%" stop-color="#111735"/>
+      <stop offset="100%" stop-color="#251342"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#c8b8ff"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#8060ff" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#8060ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="340" rx="22" fill="url(#space)"/>
+  <circle cx="1000" cy="110" r="220" fill="url(#glow)"/>
+  <g fill="#dcd5ff">
+    <circle cx="90" cy="60" r="1.5"/><circle cx="210" cy="125" r="1"/>
+    <circle cx="320" cy="42" r="1.4"/><circle cx="465" cy="92" r="1"/>
+    <circle cx="600" cy="35" r="1.5"/><circle cx="760" cy="75" r="1"/>
+    <circle cx="900" cy="40" r="1.6"/><circle cx="1080" cy="65" r="1"/>
+    <circle cx="1120" cy="200" r="1.5"/><circle cx="850" cy="285" r="1"/>
+    <circle cx="180" cy="270" r="1.5"/><circle cx="450" cy="300" r="1"/>
+    <circle cx="700" cy="260" r="1.4"/><circle cx="1030" cy="305" r="1.5"/>
+  </g>
+  <ellipse cx="1010" cy="174" rx="125" ry="44" fill="none" stroke="#9d8bff" stroke-opacity=".55" stroke-width="1.5" transform="rotate(-25 1010 174)"/>
+  <circle cx="1010" cy="174" r="32" fill="#8d7bdb"/>
+  <circle cx="999" cy="162" r="9" fill="#c9c0ff" opacity=".8"/>
+  <circle cx="900" cy="126" r="4" fill="#eee8ff"/>
+  <text x="72" y="58" font-family="Arial,sans-serif" font-size="13" letter-spacing="4" fill="#b8a8ff">ASTRONOMY • DATA SCIENCE</text>
+  <text x="68" y="151" font-family="Georgia,serif" font-size="76" font-weight="bold" fill="url(#title)">ExoLens</text>
+  <path d="M72 172 H490" stroke="#9d8bff" stroke-width="2" opacity=".8"/>
+  <text x="74" y="210" font-family="Arial,sans-serif" font-size="23" letter-spacing="2" fill="#f1efff">Read the light. Search for worlds.</text>
+  <text x="75" y="251" font-family="Arial,sans-serif" font-size="16" fill="#b9bfdc">An independent exploration of exoplanet signals in TESS data.</text>
+  <text x="75" y="303" font-family="Arial,sans-serif" font-size="15" fill="#d4c9ff">BUILT BY DHATUVARDHINI</text>
+  <text x="1125" y="316" text-anchor="end" font-family="Arial,sans-serif" font-size="12" letter-spacing="2" fill="#aaa0d9">EXOPLANET SIGNAL EXPLORATION</text>
+</svg>
