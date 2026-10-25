@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 <p align="center">
   <img src="docs/exolens-banner.svg" alt="ExoLens — Read the light. Search for worlds." width="100%">
 </p>
 
 <p align="center">
-  <em>Built by Dhatuvardhini · Astronomy × Data Science</em>
+  <em>Built by Dhatuvardhini · [Astronomy × Data Science]</em>
 </p>
 
 ---
