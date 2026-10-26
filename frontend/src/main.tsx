@@ -7,4 +7,4 @@ import './styles/tokens.css'
 import './styles/global.css'
 import './styles/components.css'
 const queryClient = new QueryClient({ defaultOptions: { queries: { retry: 1, refetchOnWindowFocus: false, staleTime: 15_000 } } })
-createRoot(document.getElementById('root')!).render(<QueryClientProvider client={queryClient}><ResultsProvider><BrowserRouter><App/></BrowserRouter></ResultsProvider></QueryClientProvider>)
+createRoot(document.getElementById('root')!).render(<QueryClientProvider client={queryClient}><ResultsProvider><BrowserRouter basename={import.meta.env.BASE_URL}><App/></BrowserRouter></ResultsProvider></QueryClientProvider>)
