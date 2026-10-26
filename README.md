@@ -3,8 +3,8 @@
 </p>
 
 ---
-
-# 🌌 ExoLens
+### 🚀 Live Demo
+**Explore ExoLens:** [Open the live website](https://dhatuvardhini07.github.io/ExoLens/)
 
 ### *Read the light. Search for worlds.*
 
