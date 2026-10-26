@@ -12,7 +12,7 @@ export function HomePage() {
   const { records } = useResults()
   return <div className="overview-page">
     <section className="immersive-hero">
-      <img className="hero-image" src="{`${import.meta.env.BASE_URL}nasa-exoplanet-concept.jpg`}" alt="" />
+      <img className="hero-image" src={`${import.meta.env.BASE_URL}nasa-exoplanet-concept.jpg`} alt="" />
       <div className="hero-shade" />
       <div className="hero-topline"><span><i/> EXOLENS OBSERVATORY</span><span>OPEN SCIENCE · TESS PHOTOMETRY</span></div>
       <div className="hero-content">
