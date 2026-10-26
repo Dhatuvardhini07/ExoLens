@@ -37,9 +37,11 @@ jobs:
       - name: Install dependencies
         working-directory: frontend
         run: npm ci
-
+        
       - name: Build frontend
         working-directory: frontend
+        env:
+          VITE_API_URL: ${{ vars.VITE_API_URL }}
         run: npm run build
 
       - name: Configure GitHub Pages
